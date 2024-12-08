@@ -1,0 +1,13 @@
+openant
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+sqlalchemy-utils
+psycopg2
+pytest
+python-dotenv
+jwt
+pyjwt
+passlib
+websockets
