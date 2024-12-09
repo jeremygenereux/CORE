@@ -2413,7 +2413,16 @@ blockquote {
     padding-top: 6.25rem;
   }
 
-  .section.is-about-hero, .section.is-location-hero, .section.is-legal {
+  .section.is-about-hero, .section.is-location-hero {
+    margin-top: 4.5rem;
+    padding-top: 2.5rem;
+  }
+
+  .section.is-location-hero.black {
+    padding-bottom: 25rem;
+  }
+
+  .section.is-legal {
     margin-top: 4.5rem;
     padding-top: 2.5rem;
   }
@@ -2774,6 +2783,10 @@ blockquote {
     padding-bottom: 4rem;
   }
 
+  .section.is-location-hero.black {
+    padding-bottom: 12rem;
+  }
+
   .video_title {
     left: 1rem;
     right: 1rem;
@@ -2933,6 +2946,10 @@ blockquote {
   .section.is-location, .section.is-footer, .section.is-bottom-cta {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .section.is-location-hero.black {
+    padding-bottom: 12rem;
   }
 
   .wrap_flex {
