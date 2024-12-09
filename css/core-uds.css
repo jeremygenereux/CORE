@@ -221,6 +221,7 @@ blockquote {
 }
 
 .text-size-medium {
+  text-align: justify;
   font-size: 1.125rem;
   font-weight: 600;
 }
@@ -1174,6 +1175,11 @@ blockquote {
   align-items: flex-end;
 }
 
+.wrap_flex.is-align-top {
+  justify-content: space-between;
+  align-items: center;
+}
+
 .max-width-440 {
   width: 100%;
   max-width: 27.5rem;
@@ -1607,7 +1613,7 @@ blockquote {
 .stats_list {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   margin-bottom: 0;
@@ -2220,6 +2226,17 @@ blockquote {
 .bigger {
   font-size: 8rem;
   overflow: visible;
+}
+
+.text-size-medium-2 {
+  font-size: 1.125rem;
+}
+
+.text-size-medium-3 {
+  text-align: justify;
+  margin-top: 25px;
+  font-size: 1.125rem;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 991px) {
