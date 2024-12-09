@@ -1,5 +1,5 @@
 # CORE - Coaching Assisted Recovery Ecosystem (Backend)
-<img src="LogoCORE.svg" alt="Logo" width="200" height="200">
+<img src="BACKEND/LogoCORE.svg" alt="Logo" width="200" height="200">
 
 ## Description
 Backend Python de CORE permettant d'établir une connexion avec les capteurs intelligents, de traiter et stocker les données ainsi que d'envoyer au frontend en temps réel les nouvelles données.
@@ -154,7 +154,7 @@ python -m devices.launch_devices
     "position": "C",
     "number": 14
   },
-  ...
+  "..."
 ]
 ```
 
